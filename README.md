@@ -63,9 +63,12 @@ The core business problem it solved was production overhead: generating printed 
 
 **Key features:**
 
-- Delivered a full CRUD catalog system (titles, media types, front/back cover art) on PHP + MySQL, replacing the client's manual tracking of a large physical media library (980+ titles in the sample data) with a searchable, sortable, paginated system.
-- Designed a configurable catalog & label print pipeline (custom page sizes, cover dimensions, font sizes, items-per-row), turning a recurring manual production task — printing catalogs and disc labels — into a few-click, repeatable workflow.
-- Built a dynamic image-resizing endpoint and integrated a Flash-based cover zoom viewer so the client could store one cover image per title and have it rendered correctly across thumbnails, print layouts, and detail views — cutting storage overhead and manual image prep.
+<!-- KEY FEATURES -->
+### Key Features
+
+- **Searchable media catalog** — a full CRUD system for titles, media types, and cover art that replaced manual tracking of a large physical media library (980+ titles in the sample data) with a searchable, sortable, paginated database
+- **Configurable print pipeline** — a catalog-and-label print system with custom page sizes, cover dimensions, font sizes, and items-per-row, turning a recurring manual production task into a few-click, repeatable workflow
+- **One-image cover rendering** — a dynamic image-resizing endpoint plus a cover zoom viewer, so a single stored cover per title renders correctly across thumbnails, print layouts, and detail views, cutting storage overhead and manual image prep
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
